@@ -13,7 +13,12 @@ public class CountDownTime : MonoBehaviour
     private GameObject player;
     
     private void Awake() {
-        startingTime = PlayerPrefs.GetFloat("GameTime");
+        
+        if (PlayerPrefs.HasKey("GameTime")) {
+            startingTime = PlayerPrefs.GetFloat("GameTime");
+        } else {
+            startingTime = 120f;
+        }
     }
     void Start()
     {

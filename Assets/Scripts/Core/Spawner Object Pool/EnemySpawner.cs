@@ -13,7 +13,11 @@ public class EnemySpawner : MonoBehaviour
         objectPooler = SpawnerObjectsPool.Instance;
         gameStatChecker = FindObjectOfType<GameplayObserver>();
 
-        spawnerTime = PlayerPrefs.GetFloat("SpawnerTime");
+        if (PlayerPrefs.HasKey("SpawnerTime")) {
+            spawnerTime = PlayerPrefs.GetFloat("SpawnerTime");
+        } else {
+            spawnerTime = 5f;
+        }
 
         if(gameStatChecker.gameHasEnded == false) 
         { 
