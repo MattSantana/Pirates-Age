@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - PatrolPath
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Cinemachine Confiner
+  - Water
+  - UI
+  - Blockers
+  - Enveiroment
+  - PostProcessing
+  - CannonBall
+  - Shooter
+  - Chaser
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Front
+    uniqueID: 1639852619
+    locked: 0
