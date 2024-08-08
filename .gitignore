@@ -103,3 +103,10 @@ crashlytics-build.properties
 ![Aa]ssets/[Ee]xternal/[Pp]lugins/**
 
 *.pfx
+Assets/Feel/
+Assets/Matheus Assets/Scenes/
+Assets/Matheus Assets/Scenes.meta
+Assets/Marina Assets/Scenes/
+Assets/Marina Assets/Scenes.meta
+Assets/Marina Assets/Scene/
+Assets/Marina Assets/Scene.meta
